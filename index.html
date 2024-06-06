@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="webthemez">
+  <title>aiPanda</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="//cdn.staticfile.org/layui/2.9.9/css/layui.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/css/animate-custom.css" rel="stylesheet">
+  <script src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+  <!--echarts-->
+  <script src="assets/js/echarts.js"></script>
+  <!-- 引入中国地图数据 -->
+  <script src="assets/js/china.js"></script>
+  <script src="assets/js/theme.js"></script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <!--highcharts-->
+  <script src="assets/js/highmaps.js"></script>
+  <script src="assets/js/flowmap.js"></script>
+  <script src="assets/js/exporting.js"></script>
+  <script src="assets/js/offline-exporting.js"></script>
+  <script src="assets/js/accessivility.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</head>
+<!--调整导航栏-->
+
+<body >
+  <div >
+    <div data-target="#navbar-main" style="background-color: #fffefc;">
+      <div id="navbar-main">
+        <!-- 导航栏 -->
+        <div class="navbar navbar-inverse navbar-fixed-top" style="height: 80px;">
+          <div class="container">
+            <div class="navbar-header">
+              <div class="pull-left logo">
+                <a href="#home" class="logo-link">
+                  <img src="assets/img/logo.png" alt="Logo" />
+                </a>
+                <h3 class="logo-text">aiPanda</h3>
+              </div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span
+                  class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#home-section" class="smoothScroll">panda show</a></li>
+                <li> <a href="#services" class="smoothScroll">谱系图</a></li>
+                <li> <a href="#about" class="smoothScroll">熊猫伴生</a></li>
+                <li> <a href="#portfolio" class="smoothScroll">伴生动植物</a></li>
+                <li> <a href="#team" class="smoothScroll">相关科研保护</a></li>
+                <li> <a href="#contact" class="smoothScroll">团队合作</a></li>
+              </ul>
+            </div>
+            <!--导航栏 -->
+          </div>
+        </div>
+      </div>
+
+      <!-- ==== 开头 ==== -->
+      <!--
+  <div id="home-section">
+    <div id="headerwrap" name="home" style="height:780px;width:auto">
+      
+      <header class="clearfix tb">
+        <div class="tb-cell text-center">
+          <i class="fa fa-heart-o icon"></i>
+          <h1>enjoy panda</h1>
+          <div id="part_head" style="height:500px;width:auto"></div>
+          <script type="text/javascript" src="assets/js/other/part_head.js"></script>
+        </div>
+      </header>
+    </div>
+
+  </div>
+  <div class="div-pattern2"></div>-->
+      <div id="home-section" style="background-color: #fffefc;">
+        <div id="headerwrap" name="home"
+          style="display: flex; flex-direction: column; justify-content: space-between; height: 780px; width: 100%;">
+          <div style="position: absolute; top: 30px; left: 80%; transform: translateX(-50%);">
+            <i class="fa fa-heart-o icon" style="font-size: 100px;"></i>
+            <h1 style="margin-top: 30px;padding-left: 60%;">aiPanda</h1>
+          </div>
+          <!-- 假设这里有一个包含图片的 div 或其他元素，但在这里我们直接使用背景图片 -->
+          <div>
+
+            <div id="header-content"
+              style="flex: 1; background: url(assets/img/header_bg.jpg) no-repeat center center; background-size: cover;">
+            </div>
+            <div id="part_head" style="height: 500px; width: 100%;margin-top:160px;margin-right: 2000px;"></div>
+            <script type="text/javascript" src="assets/js/other/part_head.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="div-pattern2" style="background-color: #fffefc;"></div>
+
+    <!-- 开头 -->
+
+    <div id='services' class="services" style="background-color: #fffefc;">
+      <div class="row white">
+        <h2 class="centered" style="margin-top: 50px">熊猫谱系图</h2>
+        <hr>
+        <div class="col-md-7" style="margin-right:50pxpx;">
+        
+          <div id="part01" class="chart-container" style="height:600px;"></div>
+          <script type="text/javascript" src="assets/js/part01/part01.js"></script>
+        </div>
+        <div class="col-md-5" style="height:600px">
+          <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote layui-text" style="margin-left: 0px;border-left: 0px solid #0d6456,;">
+              谱系图简介1
+            </blockquote>
+          </div>
+          <div class="body1" style="  
+        height:400px 
+      "></div>
+        </div>
+       
+       
+
+      </div>
+    </div>
+  </div>
+
+
+   
+
+
+  <!-- ==== 地图 ==== -->
+  <div id="about" name="about" style="background-color: #fffefc;">
+    <div class="container">
+      <div class="row white">
+        <h2 class="centered">熊猫其他啊啊</h2>
+        <hr>
+        <!--wuwwwwwwwwwwwwwwwwwwwwwwww-->
+        <div class="col-md-12" style="margin:auto;left:0%;">
+          <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote layui-text" style="border-left: 5px solid #0d6456,;">
+              熊猫外交
+            </blockquote>
+          </div>
+          <div class="layui-row">
+            <div class="layui-col-md9">
+              <div id="part020101" style="width:auto;height:700px;"></div>
+              <script type="text/javascript" src="assets/js/part02/map_of_waijiao.js"></script>
+              <script type="text/javascript">
+
+                // 调用初始化地图的函数，并传入div的ID和TopoJSON文件的URL  
+                initializeMap('part020101', 'assets/js/part02/world.topo.json');
+
+              </script>
+            </div>
+            <div class="layui-col-md3">
+              <div id="part020102" style="width:auto;height:700px;"></div>
+              <script type="text/javascript">
+                Highcharts.setOptions({
+                  colors: [
+                    'rgba(67, 178, 68) ', 'rgba(150, 194, 78) ', 'rgba(237,86,27,0.5)', 'rgba(181, 224, 155)',
+                  ]
+                });
+
+                const series = [{
+                  name: '去世',
+                  id: 'dead',
+                  marker: {
+                    symbol: 'circle'
+                  }
+                },
+                {
+                  name: '归国',
+                  id: 'back',
+                  marker: {
+                    symbol: 'circle'
+                  }
+                },
+                {
+                  name: '未归',
+                  id: 'still',
+                  marker: {
+                    symbol: 'circle'
+                  }
+                },
+                {
+                  name: '繁殖',
+                  id: 'born',
+                  marker: {
+                    symbol: 'circle'
+                  }
+                },
+
+
+                ];
+
+                async function getData() {
+                  const response = await fetch(
+                    'assets/js/part02/chart_of_waijiao.json'
+                  );
+                  return response.json();
+                }
+
+                getData().then(data => {
+                  const getData = sportName => {
+                    const temp = [];
+                    data.forEach(elm => {
+                      if (elm.now === sportName && elm.year > 0) {
+                        temp.push([elm.location, elm.year]);
+                      }
+                    });
+                    return temp;
+                  };
+                  series.forEach(s => {
+                    s.data = getData(s.id);
+                  });
+
+                  Highcharts.chart('part020102', {
+                    chart: {
+                      type: 'scatter',
+                      zooming: {
+                        type: 'xy'
+                      }
+                    },
+                    title: {
+                      text: '大熊猫国际交流统计图',
+                      align: 'left',
+                      style: {
+                        fontSize: '16px' // 字体大小  
+                      }
+                    },
+                    subtitle: {
+                      text:
+                        '数据来源于百度百科',
+                      align: 'left'
+                    },
+
+                    xAxis: {
+                      title: {
+                        text: '位置',
+                        style: {
+                          fontSize: '14px'
+                        }
+                      },
+                      labels: {
+                        format: '{value} ',
+                        style: {
+                          fontSize: '12px' // 字体大小  
+                        },
+                      },
+                      splitLine: {
+                        show: true
+                      },
+                      axisLine: {
+                        show: true
+                      },
+
+                      startOnTick: false,
+                      endOnTick: true,
+                      showLastLabel: true
+                    },
+                    yAxis: {
+                      title: {
+                        text: '年份'
+                      },
+                      labels: {
+                        format: '{value}',
+                        style: {
+                          fontSize: '12px' // 字体大小  
+                        },
+                      },
+                      splitLine: {
+                        show: true
+                      },
+                      axisLine: {
+                        show: true
+                      },
+                      startOnTick: false,
+                    },
+                    legend: {
+                      enabled: true,
+                      itemStyle: {
+
+                        fontSize: '13px' // 图例项的字体大小  
+                      }
+                    },
+                    plotOptions: {
+                      scatter: {
+                        marker: {
+                          radius: 5,
+                          symbol: 'circle',
+                          states: {
+                            hover: {
+                              enabled: true,
+                              lineColor: 'rgb(100,100,100)'
+                            }
+                          }
+                        },
+                        states: {
+                          hover: {
+                            marker: {
+                              enabled: false
+                            }
+                          }
+                        },
+                        jitter: {
+                          x: 0.005
+                        }
+                      },
+                      Style: {
+
+                        fontSize: '12px' // 图例项的字体大小  
+                      }
+                    },
+                    tooltip: {
+                      pointFormat: 'Height: {point.x} m <br/> Weight: {point.y} kg',
+                      style: {
+                        fontSize: '13px'
+                      }
+                    },
+                    series
+                  });
+                }
+                );
+
+
+              </script>
+            </div>
+          </div>
+
+
+          <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote layui-text" style="border-left: 5px solid #7ccf30; width:auto;">
+              野生大熊猫数据
+            </blockquote>
+          </div>
+          <div class="layui-row">
+            <div class="layui-col-md7">
+              <div id="part020201" style="width:auto;height:600px;"></div>
+              <script type="text/javascript" src="assets/js/part02/map_of_wild.js"></script>
+              <script type="text/javascript">
+
+                // 调用初始化地图的函数，并传入div的ID和TopoJSON文件的URL  
+                initializeMap02('part020201', 'assets/js/part02/china.json',);
+
+              </script>
+            </div>
+            <div class="layui-col-md5">
+              <div id="part020202" style="width:auto;height:600px;padding: 5px;"></div>
+              <script type="text/javascript" src="assets/js/part02/chart_of_number.js"></script>
+            </div>
+          </div>
+
+          <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote layui-text" style="border-left: 5px solid #196f06;">
+              圈养大熊猫数量积分布
+            </blockquote>
+          </div>
+          <div class="layui-row">
+            <div class="layui-col-md7">
+              <div id="part020301" style="width:auto;height:450px;"></div>
+              <script type="text/javascript" src="assets/js/part02/map_of_home.js"></script>
+              <script type="text/javascript">
+
+                // 调用初始化地图的函数，并传入div的ID和TopoJSON文件的URL  
+                initializeMap3('part020301', 'assets/js/part02/china.json',);
+
+              </script>
+            </div>
+            <div class="layui-col-md5">
+              <div id="part020302" style="width:auto;height:450px;"></div>
+              <script type="text/javascript" src="assets/js/part02/chart_of_juanyang.js"></script>
+            </div>
+          </div>
+        </div>
+        <!--wuwwwwwwwwwwwwwwwwwwwwwwww-->
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  </div>
+  <!-- container -->
+
+
+
+
+
+  <!-- ==== 伴生动植物 ==== -->
+  <div id="portfolio" name="portfolio" style="background-color: #fffefc;">
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">大熊猫相关动植物</h2>
+        <hr>
+      </div>
+
+      <div margin="auto">
+        <div class="col-md-12" style="margin:auto;left:0%;">
+          <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote layui-text" style="border-left: 5px solid #196f06;">
+              <b>伴生植物:</b>伴生植物是指与大熊猫在同一生态环境中生长、分布，并且与大熊猫的生存、繁衍等活动有密切关系的植物种类。具体来说，这些伴生植物在大熊猫的栖息地内广泛存在，不仅为大熊猫提供了丰富的食物来源，还构成了大熊猫栖息地的生态系统，对大熊猫的生存环境和生态平衡起着重要的作用。<br/>
+            </blockquote>
+          </div>
+
+          <div id="part0301" style="height:700px;margin:auto;left:0%;"></div>
+          <script type="text/javascript" src="assets/js/part03/part0301.js">
+          </script>
+        </div>
+
+        <div class="col-md-12" style="margin:auto;left:0%;">
+          <div style="padding: 15px;">
+            <blockquote class="layui-elem-quote layui-text" style="border-left: 5px solid #16ba9f;">
+              <b>伴生动物:</b>三个省共65种伴生动物在大熊猫的活动区域统计数据<br/>什么
+            </blockquote>
+          </div>
+          <div id="part0302" style="height:520px;margin:auto;left:0%;"></div>
+          <script type="text/javascript" src="assets/js/part03/part0302.js">
+          </script>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div style="padding: 15px;">
+                <blockquote class="layui-elem-quote layui-text">
+                  <b>主食竹介绍：</b>三个省大熊猫活动区域的8种不同竹属占地面积统计数据<br/>什么
+                </blockquote>
+              </div>
+              <div id="part0303" style="height:450px;margin:auto;"></div>
+
+              <script type="text/javascript" src="assets/js/part03/part0303.js">
+              </script>
+            </div>
+            <div class="col-md-6 ">
+              <div style="padding: 15px;padding-bottom: 5px;">
+                <blockquote class="layui-elem-quote layui-text">
+                  <b>丰容：</b>动物丰容，是以改善圈养动物的生活环境、提高生活质量及动物福利为目的的工作。
+                </blockquote>
+              </div>
+              <div class="layui-carousel" id="ID-carousel-demo-1" style="margin-top:0px;margin-left:10px;">
+                <div carousel-item>
+                  <div style="position: relative; width: 100%; height: auto;">
+                    <img src="assets/img/panda/huanjingfr.jpg" alt="环境丰容图片" id="food-enrichment-img"
+                      style="width: 100%;">
+                    <div
+                      style="position: absolute; top: 0; left: 0; width: 100%; text-align: center; color: rgb(206, 206, 206); font-size: 16px;">
+                      环境丰容
+                    </div>
+                  </div>
+                  <div style="position: relative; width: 100%; height: auto;">
+                    <img src="assets/img/panda/ganguanfr.jpg" alt="感官丰容图片" id="food-enrichment-img"
+                      style="width: 100%;">
+                    <div
+                      style="position: absolute; top: 0; left: 0; width: 100%; text-align: center; color: rgb(206, 206, 206); font-size: 16px;">
+                      感官丰容
+                    </div>
+                  </div>
+                  <div style="position: relative; width: 100%; height: auto;">
+                    <img src="assets/img/panda/renzhifr.jpg" alt="认知丰容图片" id="food-enrichment-img" style="width: 100%;">
+                    <div
+                      style="position: absolute; top: 0; left: 0; width: 100%; text-align: center; color: rgb(206, 206, 206); font-size: 16px;">
+                      认知丰容
+                    </div>
+                  </div>
+                  <div style="position: relative; width: 100%; height: auto;">
+                    <img src="assets/img/panda/shequnfr.jpg" alt="社群丰容图片" id="food-enrichment-img" style="width: 100%;">
+                    <div
+                      style="position: absolute; top: 0; left: 0; width: 100%; text-align: center; color: rgb(206, 206, 206); font-size: 16px;">
+                      社群丰容
+                    </div>
+                  </div>
+                  <div style="position: relative; width: 100%; height: auto;">
+                    <img src="assets/img/panda/shiwufr.jpg" alt="食物丰容图片" id="food-enrichment-img" style="width: 100%;">
+                    <div
+                      style="position: absolute; top: 0; left: 0; width: 100%; text-align: center; color: rgb(206, 206, 206); font-size: 16px;">
+                      食物丰容
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <script src="//unpkg.com/layui@2.9.10/dist/layui.js"></script>
+            <script>
+              layui.use(function () {
+                var layer = layui.layer;
+                var util = layui.util;
+                // 事件
+                util.on('lay-on', {
+                  'test-tips-color': function () {
+                    layer.tips('可自定义任意主题色', this, {
+                      tips: [1, '#16b777']
+                    });
+                  },
+
+                })
+              });
+            </script>
+            <script src="//unpkg.com/layui@2.9.9/dist/layui.js"></script>
+            <script>
+              layui.use(function () {
+                var carousel = layui.carousel;
+                // 渲染 - 常规轮播
+                carousel.render({
+                  elem: '#ID-carousel-demo-1',
+                  width: "500px",
+                  height: "300px",
+                });
+              });
+            </script>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+  <!--伴生动植物-->
+
+  <!--科研保护-->
+  <div id="team" name="portfolio" style="background-color: #fffefc;">
+    <div class="container">
+      <div class="row">
+        <h2 class="centered">对大熊猫的科研保护</h2>
+        <hr>
+      </div>
+      <!-- /row -->
+      <div class="container">
+        <div class="row">
+
+          <!-- PORTFOLIO IMAGE 1 -->
+          <div class="col-md-4 ">
+            <div class="grid overlay">
+              <figure> <img class="img-responsive" src="assets/img/portfolio/SpeciesPopu.jpg" alt="">
+                <figcaption>
+                  <h5>潜在栖息地</h5>
+                  <a data-toggle="modal" href="#myModal1" class="btn btn-default">更多</a>
+                </figcaption>
+                <!-- /figcaption -->
+              </figure>
+              <!-- /figure -->
+            </div>
+            <!-- /grid-overlay -->
+          </div>
+
+          <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">大熊猫潜在栖息地</h4>
+                </div>
+                <div class="modal-body">
+                  <div id="population-china-chart" style="width: 550px;height:400px;"></div>
+                  <p> 潜在栖息地是与大熊猫栖息地相连、有适于或比较适于大熊猫生存繁衍的生境条件、以往有或可能有或从来无大熊猫分布但通过加强管理能使大熊猫在未来 10-15
+                    年内有可能扩散过来的地域。大熊猫潜在栖息地的保护对于生物多样性和生态平衡至关重要。这些区域不仅为大熊猫提供了必要的生存空间，还为许多其他濒危物种提供了庇护。此外，保护潜在栖息地有助于维持森林生态系统的健康，增强自然界的碳储存能力，并促进当地社区的可持续发展和生态旅游业的兴起。
+                  </p>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+          <!-- PORTFOLIO IMAGE 2 -->
+          <div class="col-md-4">
+            <div class="grid overlay">
+              <figure> <img class="img-responsive" src="assets/img/portfolio/Conservation.jpg" alt="">
+                <figcaption>
+                  <h5>自然保护区</h5>
+                  <a data-toggle="modal" href="#myModal2" class="btn btn-default">更多</a>
+                </figcaption>
+                <!-- /figcaption -->
+              </figure>
+              <!-- /figure -->
+            </div>
+            <!-- /grid-overlay -->
+          </div>
+
+          <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title">大熊猫自然保护区</h4>
+                </div>
+                <div class="modal-body">
+                  <div id="conservation-area" style="width: 550px;height:400px;"></div>
+                  <div id="conservation-change" style="width: 620px;height: 200px;"></div>
+                  <p> 中国政府历来注重大熊猫自然保护区的建设。1963年中国第二批建立的5个自然保护区中（1956 年建立了鼎湖山自然保护区），有4个属大熊猫自然保护区，即汶川县卧龙自然保护区，南坪县（现
+                    九寨沟县）白河自然保护区，平武县王朗自然保护区，天全县喇叭河自然保护区。截至 2009 年 10
+                    月，在四川、陕西和甘肃三省大熊猫分布区已建立保护大熊猫及其栖息地为主的自然保护区60个 </p>
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+          </div>
+          <!-- /.modal -->
+
+          <!-- PORTFOLIO IMAGE 3 -->
+          <div class="col-md-4">
+            <div class="grid overlay">
+              <figure> <img class="img-responsive" src="assets/img/portfolio/abroad.jpg" alt="">
+                <figcaption>
+                  <h5>大熊猫“出口”管理</h5>
+                  <a data-toggle="modal" href="#myModal3" class="btn btn-default">更多</a>
+                </figcaption>
+                <!-- /figcaption -->
+              </figure>
+              <!-- /figure -->
+            </div>
+            <!-- /grid-overlay -->
+          </div>
+        </div>
+        <!-- /row -->
+
+        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">大熊猫“出口”管理</h4>
+              </div>
+              <div class="modal-body">
+                <div id="rent-history" style="width: 550px;height: 600px;"></div>
+                <p> 被视为动物界“活化石”的大熊猫，是中国的国宝，全人类的朋友，世界的和平使者。新中国 成立后，熊猫在中国的对外关系上发挥了无可替代的作用。1957 年，中国政府将“平平”和“碛碛”
+                  两只大熊猫赠送给苏联，大熊猫作为和平友好的使者，走出了国门，向这些国家表达善意和祝福。 熊猫作为独一无二的外交使者，起到了无可替代的外交效果，成为中国与各国之间促进文化交流与
+                  友谊的媒介，播种着和平与友谊，受到各国人民的欢迎。 </p>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!--科研保护-->
+
+
+        <!-- ==== 最终 ==== -->
+        <div id="contact" name="contact">
+          <div class="container" style="height:300px">
+            <div class="row">
+              <h2 class="centered">团队组成</h2>
+              <hr>
+
+            </div>
+            <strong>团队分工</strong>
+            <p>组长XX</p>
+            <strong>项目代码</strong>
+            <p>111.</p>
+            <!-- form -->
+
+          </div>
+          <!-- container -->
+        </div>
+        <div id="footerwrap">
+
+        </div>
+      </div>
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+
+      <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+      <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+      <script type="text/javascript" src="assets/js/custom-scripts.js"></script>
+
+      <!--科研保护-->
+      <script type="text/javascript" src="assets/js/part04/population-china.js"></script>
+      <script type="text/javascript" src="assets/js/part04/conservation-area.js"></script>
+      <script type="text/javascript" src="assets/js/part04/conservation-change.js"></script>
+      <script type="text/javascript" src="assets/js/part04/rent-history.js"></script>
+      <!--地图-->
+    </div>
+
+</body>
+
+</html>

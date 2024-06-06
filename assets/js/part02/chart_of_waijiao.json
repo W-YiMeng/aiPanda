@@ -1,0 +1,497 @@
+[
+{
+    "name": "苏琳",
+    "year": 1936,
+    "location": -87.83,
+    "now": "dead"
+},{
+    "name": "明",
+    "year": 1938,
+    "location":-0.15,
+    "now": "dead"
+},{
+    "name": "平平",
+    "year": 1957,
+    "location":37.58,
+    "now": "dead"
+},{
+    "name": "兰兰",
+    "year": 1972,
+    "location":139.76,
+    "now": "dead"
+},{
+    "name": "康康",
+    "year": 1972,
+    "location":140.76,
+    "now": "dead"
+},{
+    "name": "玲玲(美国)",
+    "year": 1972,
+    "location":-77.07,
+    "now": "dead"
+},{
+    "name": "兴兴",
+    "year": 1972,
+    "location":-76.07,
+    "now": "dead"
+},{
+    "name": "玲玲（日本）",
+    "year": 1992,
+    "location":139.76,
+    "now": "dead"
+},{
+    "name": "蓉浜",
+    "year": 1992,
+    "location":135.26,
+    "now": "dead"
+},{
+    "name": "嫣嫣",
+    "year": 1995,
+    "location":13.35,
+    "now": "dead"
+},{
+    "name": "旦旦",
+    "year": 2000,
+    "location":135.21,
+    "now": "dead"
+},{
+    "name": "梅梅",
+    "year": 2000,
+    "location":135.21,
+    "now": "dead"
+},{
+    "name": "林惠",
+    "year": 2003,
+    "location":98.95,
+    "now": "dead"
+},{
+    "name": "龙徽",
+    "year": 2003,
+    "location": 48.18,
+    "now": "dead"
+},{
+    "name": "乐乐",
+    "year": 2003,
+    "location": -89.98,
+    "now": "dead"
+},{
+    "name": "创创",
+    "year": 2003,
+    "location": 98.95,
+    "now": "dead"
+},{
+    "name": "永明",
+    "year": 1994,
+    "location": 135.26,
+    "now": "back"
+},{
+    "name": "白云",
+    "year": 1996,
+    "location": -117.15,
+    "now": "back"
+},{
+    "name": "添添",
+    "year": 2000,
+    "location": -77.08,
+    "now": "back"
+},{
+    "name": "美香",
+    "year": 2000,
+    "location": -76.08,
+    "now": "back"
+},{
+    "name": "锦竹",
+    "year": 2000,
+    "location": 135.21,
+    "now": "back"
+},{
+    "name": "高高",
+    "year": 2003,
+    "location": -117.15,
+    "now": "back"
+},{
+    "name": "高高",
+    "year": 2003,
+    "location": -117.15,
+    "now": "back"
+},{
+    "name": "丫丫",
+    "year": 2003,
+    "location": -89.98,
+    "now": "back"
+},{
+    "name": "冰星",
+    "year": 2007,
+    "location": -3.69,
+    "now": "back"
+},{
+    "name": "花嘴巴",
+    "year": 2007,
+    "location": -2.69,
+    "now": "back"
+},{
+    "name": "甜甜",
+    "year": 2011,
+    "location": -3.27,
+    "now": "back"
+},{
+    "name": "阳光",
+    "year": 2011,
+    "location": -2.27,
+    "now": "back"
+},{
+    "name": "大毛",
+    "year": 2011,
+    "location":  -79.24,
+    "now": "back"
+},{
+    "name": "二顺",
+    "year": 2013,
+    "location":  -79.24,
+    "now": "back"
+},{
+    "name": "伦伦",
+    "year": 1999,
+    "location": -84.39,
+    "now": "still"
+},{
+    "name": "洋洋",
+    "year": 1999,
+    "location": -83.39,
+    "now": "still"
+},{
+    "name": "阳阳",
+    "year": 2003,
+    "location": 48.18,
+    "now": "still"
+},{
+    "name": "网网",
+    "year": 2009,
+    "location": 138.60,
+    "now": "still"
+},{
+    "name": "福妮",
+    "year": 2009,
+    "location": 139.60,
+    "now": "still"
+},{
+    "name": "沪宝",
+    "year": 2012,
+    "location": 103.84,
+    "now": "still"
+},{
+    "name": "凯凯",
+    "year": 2012,
+    "location": 104.84,
+    "now": "still"
+},{
+    "name": "园子",
+    "year": 2012,
+    "location":1.78,
+    "now": "still"
+},{
+    "name": "欢欢",
+    "year": 2012,
+    "location": 2.78,
+    "now": "still"
+},{
+    "name": "好好",
+    "year": 2014,
+    "location": 4.15,
+    "now": "still"
+},{
+    "name": "星徽",
+    "year": 2014,
+    "location": 5.15,
+    "now": "still"
+},{
+    "name": "靓靓",
+    "year": 2014,
+    "location": 101.71,
+    "now": "still"
+},{
+    "name": "福娃",
+    "year": 2014,
+    "location": 101.71,
+    "now": "still"
+},{
+    "name": "华妮",
+    "year": 2016,
+    "location": 126.98,
+    "now": "still"
+},{
+    "name": "园欣",
+    "year": 2016,
+    "location": 127.98,
+    "now": "still"
+},{
+    "name": "彩陶",
+    "year": 2017,
+    "location": 107.57,
+    "now": "still"
+},{
+    "name": "湖春",
+    "year": 2017,
+    "location": 108.57,
+    "now": "still"
+},{
+    "name": "星雅",
+    "year": 2017,
+    "location": 5.58,
+    "now": "still"
+},{
+    "name": "武雯",
+    "year": 2017,
+    "location": 6.58,
+    "now": "still"
+},{
+    "name": "娇庆",
+    "year": 2017,
+    "location": 13.35,
+    "now": "still"
+},{
+    "name": "梦梦",
+    "year": 2017,
+    "location": 14.35,
+    "now": "still"
+},{
+    "name": "华豹",
+    "year": 2018,
+    "location": 25.00,
+    "now": "still"
+},{
+    "name": "金宝宝",
+    "year": 2018,
+    "location": 26.00,
+    "now": "still"
+},{
+    "name": "毛笋",
+    "year": 2019,
+    "location": 12.57,
+    "now": "still"
+},{
+    "name": "星二",
+    "year": 2019,
+    "location": 13.57,
+    "now": "still"
+},{
+    "name": "丁丁",
+    "year": 2019,
+    "location": 37.58,
+    "now": "still"
+},{
+    "name": "如意",
+    "year": 2019,
+    "location": 38.58,
+    "now": "still"
+},{
+    "name": "园园",
+    "year": 2019,
+    "location": 48.18,
+    "now": "still"
+},{
+    "name": "四海",
+    "year": 2022,
+    "location": 51.55,
+    "now": "still"
+},{
+    "name": "京京",
+    "year": 2022,
+    "location": 52.55,
+    "now": "still"
+},{
+    "name": "金喜",
+    "year": 2022,
+    "location":  -3.69,
+    "now": "still"
+},{    
+    "name": "华美",
+    "year": 1999,
+    "location":  -117.15,
+    "now": "born"
+},{  
+    "name": "良浜",
+    "year": 2000,
+    "location":   135.26,
+    "now": "born"
+},{  
+    "name": "泰山",
+    "year": 2005,
+    "location":  -77.08,
+    "now": "born"
+},{  
+    "name": "美兰",
+    "year": 2006,
+    "location":  -84.39,
+    "now": "born"
+},{  
+    "name": "宝兰",
+    "year": 2010,
+    "location":  -83.39,
+    "now": "born"
+},{  
+    "name": "阿宝",
+    "year": 2010,
+    "location":  -3.69,
+    "now": "born"
+},{  
+    "name": "小礼物",
+    "year": 2012,
+    "location":   -117.15,
+    "now": "born"
+},{  
+    "name": "宝宝",
+    "year": 2013,
+    "location":  -77.08,
+    "now": "born"
+},{  
+    "name": "桃浜",
+    "year": 2014,
+    "location":  135.26,
+    "now": "born"
+},{  
+    "name": "樱浜",
+    "year": 2014,
+    "location": 136.26,
+    "now": "born"
+},{  
+    "name": "加盼盼",
+    "year": 2015,
+    "location":  -79.24,
+    "now": "born"
+},{  
+    "name": "加悦悦",
+    "year": 2015,
+    "location":  -78.24,
+    "now": "born"
+},{  
+    "name": "暖暖",
+    "year": 2015,
+    "location":  101.71,
+    "now": "born"
+},{  
+    "name": "贝贝",
+    "year": 2015,
+    "location":  -77.07,
+    "now": "born"
+},{  
+    "name": "天宝",
+    "year": 2016,
+    "location":  4.15,
+    "now": "born"
+},{  
+    "name": "竹莉娜",
+    "year": 2016,
+    "location":  -3.69,
+    "now": "born"
+},{  
+    "name": "圆梦",
+    "year": 2017,
+    "location":  1.78,
+    "now": "born"
+},{  
+    "name": "香香",
+    "year": 2017,
+    "location":  139.76,
+    "now": "born"
+},{  
+    "name": "谊谊",
+    "year": 2018,
+    "location":  101.71,
+    "now": "born"
+},{  
+    "name": "宝妹",
+    "year": 2019,
+    "location":  4.15,
+    "now": "born"
+},{  
+    "name": "宝弟",
+    "year": 2019,
+    "location": 5.15,
+    "now": "born"
+},{  
+    "name": "梦想",
+    "year": 2019,
+    "location":  13.35,
+    "now": "born"
+},{  
+    "name": "梦圆",
+    "year": 2019,
+    "location":  14.35,
+    "now": "born"
+},{  
+    "name": "梵星",
+    "year": 2020,
+    "location":   5.58,
+    "now": "born"
+},{  
+    "name": "福宝",
+    "year": 2020,
+    "location":  126.98,
+    "now": "born"
+},{  
+    "year": 2020,
+    "location":  -77.08,
+    "now": "born"
+},{  
+    "name": "枫浜",
+    "year": 2020,
+    "location":  -77.08,
+    "now": "born"
+},{  
+    "name": "升谊",
+    "year": 2021,
+    "location":  101.71,
+    "now": "born"
+},{  
+    "name": "圆嘟嘟",
+    "year": 2021,
+    "location":  1.78,
+    "now": "born"
+},{  
+    "name": "欢黎黎",
+    "year": 2021,
+    "location":  2.78,
+    "now": "born"
+},{  
+    "name": "蕾蕾",
+    "year": 2021,
+    "location": 139.76,
+    "now": "born"
+},{  
+    "name": "晓晓",
+    "year": 2021,
+    "location":  140.76,
+    "now": "born"
+},{  
+    "name": "友友",
+    "year": 2021,
+    "location":  -3.69,
+    "now": "born"
+},{  
+    "name": "久久",
+    "year": 2021,
+    "location":  -2.69,
+    "now": "born"
+},{  
+    "name": "叻叻",
+    "year": 2021,
+    "location":  103.84,
+    "now": "born"
+},{  
+    "name": "睿宝",
+    "year": 2023,
+    "location":  126.98,
+    "now": "born"
+},{  
+    "name": "辉宝",
+    "year": 2023,
+    "location":  127.98,
+    "now": "born"
+},{  
+    "name": "喀秋莎",
+    "year": 2023,
+    "location": 37.58,
+    "now": "born"
+}
+]
