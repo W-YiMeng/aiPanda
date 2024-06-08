@@ -37,7 +37,8 @@ function initializeMap02(containerId, topoJsonUrl) {
             // Create the chart
             Highcharts.mapChart('part020201', {
                 chart: {
-                    map: topology
+                    map: topology,
+                   
                 },
 
                 title: {

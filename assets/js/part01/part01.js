@@ -13,9 +13,10 @@
     "aria": {
       "enabled": false
     },
+  
     "color": [
         "#94c1b6",
-        "#6b969a",
+        "#6b96#dcc6729a",
         "#dcc672",
         "#e0ba19",
         "#c69519",
@@ -1411,6 +1412,14 @@
      
 
     },
-   
+    "title": {
+      text: "大熊猫谱系图",
+      textStyle: { // 标题样式  
+          fontSize: 16, // 字体大小设置为20  
+          // 其他样式属性，如颜色、字体类型等也可以在这里设置  
+      },  
+      left:50
+      
+    }
   };
   chart_4eaa364a159c406194abd4e507a4402c.setOption(option_4eaa364a159c406194abd4e507a4402c);

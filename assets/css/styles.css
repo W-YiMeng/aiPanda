@@ -23,11 +23,11 @@ textarea {
 
 hr {
 	display: block;
-	height: 1px;
+	height: 2px;
 	border: 0;
 	margin: 3em 0;
 	padding: 0;
-	background-image: -webkit-linear-gradient(left, #fff, #ccc, #fff);
+	background-image: -webkit-linear-gradient(left, #fff, #3a2e10, #fff);
 	background-image: -moz-linear-gradient(left, #fff, #ccc, #fff);
 	background-image: -ms-linear-gradient(left, #fff, #ccc, #fff);
 	background-image: -o-linear-gradient(left, #fff, #ccc, #fff);
@@ -62,7 +62,7 @@ body {
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.4;
 	font-family: 'Open Sans', sans-serif;
-	
+
 
 
 }
@@ -153,7 +153,7 @@ body {
 }
 
 .modal-header {
-	background: #E89A2F;
+	background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
 }
 
 .modal-header h4 {
@@ -164,6 +164,15 @@ body {
 
 .modal-footer {
 	background: #2b2b2b;
+}
+
+
+
+.custom-quote {
+	background-color: #33471b78;
+	/* 你可以修改为任何你想要的颜色 */
+	color: #ffffff;
+	/* 你可以修改为任何你想要的颜色 */
 }
 
 .navbar-default {
@@ -230,6 +239,11 @@ p.large {
 
 .centered {
 	text-align: center;
+	color: #1c3b0e;
+	font-weight: bold;
+	/* 使字体加粗 */
+	font-family: 'Microsoft YaHei', sans-serif;
+	/* 使用微软雅黑字体，如果系统中没有微软雅黑，则回退到无衬线字体 */
 }
 
 strong {
@@ -406,7 +420,7 @@ a:after {
 }
 
 #about {
-	background: #FFF;
+
 	padding: 100px 0;
 }
 
@@ -415,7 +429,7 @@ a:after {
 }
 
 #services {
-	background: #FFFFFF;
+
 
 	text-align: center;
 }
@@ -454,7 +468,6 @@ a:after {
 }
 
 #team {
-	background: #000000;
 	padding: 100px 0;
 }
 
@@ -488,7 +501,6 @@ a:after {
 }
 
 #portfolio {
-	background: #fff;
 	padding: 20px 0;
 	text-align: center;
 }
@@ -498,11 +510,13 @@ a:after {
 }
 
 #contact {
-	background: #F4F4F4;
-	padding: 100px 0;
+
+	padding-top: 10px;
+	padding-bottom: 100px;
 }
 
 #contact .form {
+
 	padding: 30px 0;
 }
 
@@ -644,7 +658,7 @@ ul.social-buttons li a:active {
 	left: 0;
 	padding: 20px;
 	color: #fff;
-	background-color: rgba(216, 169, 27, 0.81);
+	background-image: linear-gradient(60deg, #64b3f4be 0%, #c2e59cb6 100%);
 }
 
 .grid figcaption h5 {
@@ -824,23 +838,30 @@ screen and (max-device-width:1050px) {
 }
 
 
-.body1 {  
-    position: relative; /* 设置定位，以便伪元素能够相对于这个元素定位 */  
-    width: 100%; /* 或者您希望的任何宽度 */  
-    padding-top: 66.6666%; /* 假设图片的宽高比是 3:2，则 padding-top = (2/3) * 100% */  
-    overflow: hidden; /* 隐藏超出元素的内容 */  
-}  
-  
-.body1::before {  
-    content: "";  
-    display: block;  
-    position: absolute;  
-    top: 0;  
-    left: 0;  
-    width: 100%;  
-    height: 100%;  
-    background-image: url('../img/about/panda1.png'); /* 背景图片路径 */  
-    background-size: contain; /* 使背景图片等比缩放，同时保持其宽高比 */  
-    background-repeat: no-repeat;  
-    background-position: center center; /* 将图片居中显示 */  
-}  
+.body1 {
+	position: relative;
+	/* 设置定位，以便伪元素能够相对于这个元素定位 */
+	width: 100%;
+	/* 或者您希望的任何宽度 */
+	padding-top: 66.6666%;
+	/* 假设图片的宽高比是 3:2，则 padding-top = (2/3) * 100% */
+	overflow: hidden;
+	/* 隐藏超出元素的内容 */
+}
+
+.body1::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('../img/about/panda1.png');
+	/* 背景图片路径 */
+	background-size: contain;
+	/* 使背景图片等比缩放，同时保持其宽高比 */
+	background-repeat: no-repeat;
+	background-position: center center;
+	/* 将图片居中显示 */
+}

@@ -12,7 +12,8 @@ function initializeMap(containerId, topoJsonUrl) {
 
             Highcharts.mapChart('part020101', {
                 chart: {
-                    map: topology
+                    map: topology,
+                   
                 },
                 style: {  
                     fontFamily: 'Arial, sans-serif', // 字体家族  
@@ -577,16 +578,8 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2023年2月22日返回中国',
                             color: '#1661ab'
 
-                        }, {
-                            from: '日本和歌山白浜野生动物园',
-                            to: '中国四川省',
-                            name: '永明',
-                            year: '2023.2.22',
-                            now: 'G',
-                            description: '2023年2月22日返回中国',
-                            color: '#63bbd0'
-
-                        }, {
+                        },
+                          {
                             from: '中国大熊猫保护研究中心核桃坪野化培训基地',
                             to: '美国圣地亚哥动物园',
                             name: '白云',
@@ -595,16 +588,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2019年5月16日返回中国',
                             color: '#1661ab'
 
-                        }, {
-                            from: '美国圣地亚哥动物园',
-                            to: '中国四川省',
-                            name: '白云',
-                            year: '2019.5.16',
-                            now: 'G',
-                            description: '2019年5月16日返回中国',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '中国大熊猫保护研究中心核桃坪野化培训基地',
                             to: '美国华盛顿国家动物园',
                             name: '添添',
@@ -613,16 +597,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2023.11.8返回四川成都',
                             color: '#1661ab'
 
-                        }, {
-                            from: '美国华盛顿国家动物园',
-                            to: '中国四川省',
-                            name: '添添',
-                            year: '2023.11.8',
-                            now: 'G',
-                            description: '2023.11.8返回四川成都',
-                            color: '#63bbd0'
-
-                        }, {
+                        },{
                             from: '中国大熊猫保护研究中心核桃坪野化培训基地',
                             to: '美国华盛顿国家动物园',
                             name: '美香',
@@ -631,16 +606,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2023.11.8返回四川成都',
                             color: '#1661ab'
 
-                        }, {
-                            from: '美国华盛顿国家动物园',
-                            to: '中国四川省',
-                            name: '美香',
-                            year: '2023.11.8',
-                            now: 'G',
-                            description: '2023.11.8返回四川成都',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '中国大熊猫保护研究中心卧龙基地',
                             to: '日本神户市立王子动物园',
                             name: '锦竹',
@@ -649,16 +615,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2002.12.5回到成都',
                             color: '#1661ab'
 
-                        }, {
-                            from: '日本神户市立王子动物园',
-                            to: '中国大熊猫保护研究中心卧龙基地',
-                            name: '锦竹',
-                            year: '2002.12.5',
-                            now: 'G',
-                            description: '2002.12.5回到成都',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '中国四川省',
                             to: '美国圣地亚哥动物园',
                             name: '高高',
@@ -667,16 +624,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2018.11.1回到中国大熊猫保护研究中心',
                             color: '#1661ab'
 
-                        }, {
-                            from: '美国圣地亚哥动物园',
-                            to: '中国大熊猫保护研究中心都江堰青城山基地',
-                            name: '高高',
-                            year: '2018.11.1',
-                            now: 'G',
-                            description: '2018.11.1回到中国大熊猫保护研究中心',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '北京动物园',
                             to: '美国田纳西州孟菲斯动物园',
                             name: '丫丫',
@@ -686,15 +634,6 @@ function initializeMap(containerId, topoJsonUrl) {
                             color: '#1661ab'
 
                         }, {
-                            from: '美国圣地亚哥动物园',
-                            to: '北京动物园',
-                            name: '丫丫',
-                            year: '2023.4.7',
-                            now: 'G',
-                            description: '2023.4.7回到北京动物园',
-                            color: '#63bbd0'
-
-                        }, {
                             from: '成都大熊猫繁育研究基地',
                             to: '西班牙马德里动物园',
                             name: '冰星',
@@ -702,15 +641,6 @@ function initializeMap(containerId, topoJsonUrl) {
                             now: 'G',
                             description: '2024.3.1回到四川成都',
                             color: '#1661ab'
-
-                        }, {
-                            from: '美国圣地亚哥动物园',
-                            to: '西班牙马德里动物园',
-                            name: '冰星',
-                            year: '2024.3.1',
-                            now: 'G',
-                            description: '2024.3.1回到四川成都',
-                            color: '#63bbd0'
 
                         }, {
                             from: '成都大熊猫繁育研究基地',
@@ -721,16 +651,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2024.3.1回到四川成都',
                             color: '#1661ab'
 
-                        }, {
-                            from: '西班牙马德里动物园',
-                            to: '成都大熊猫繁育研究基地',
-                            name: '花嘴巴',
-                            year: '2024.3.1',
-                            now: 'G',
-                            description: '2024.3.1回到四川成都',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '北京动物园',
                             to: '英国爱丁堡动物园',
                             name: '甜甜',
@@ -739,16 +660,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2023.12.5回国，雅安碧峰峡基地',
                             color: '#1661ab'
 
-                        }, {
-                            from: '英国爱丁堡动物园',
-                            to: '中国大熊猫保护研究中心雅安碧峰峡基地',
-                            name: '甜甜',
-                            year: '2023.12.5',
-                            now: 'G',
-                            description: '2023.12.5回国，雅安碧峰峡基地',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '中国大熊猫保护研究中心核桃坪野化培训基地',
                             to: '英国爱丁堡动物园',
                             name: '阳光',
@@ -757,16 +669,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2023.12.5回国，雅安碧峰峡基地',
                             color: '#1661ab'
 
-                        }, {
-                            from: '英国爱丁堡动物园',
-                            to: '中国大熊猫保护研究中心雅安碧峰峡基地',
-                            name: '阳光',
-                            year: '2023.12.5',
-                            now: 'G',
-                            description: '2023.12.5回国，雅安碧峰峡基地',
-                            color: '#63bbd0'
-
-                        }, {
+                        },  {
                             from: '成都大熊猫繁育研究基地',
                             to: '加拿大多伦多动物园',
                             name: '大毛',
@@ -774,15 +677,6 @@ function initializeMap(containerId, topoJsonUrl) {
                             now: 'G',
                             description: '2020.11.29返回中国',
                             color: '#1661ab'
-
-                        }, {
-                            from: '加拿大多伦多动物园',
-                            to: '成都大熊猫繁育研究基地',
-                            name: '大毛',
-                            year: '2020.11.29',
-                            now: 'G',
-                            description: '2020.11.29返回中国',
-                            color: '#63bbd0'
 
                         }, {
                             from: '重庆动物园',
@@ -793,16 +687,7 @@ function initializeMap(containerId, topoJsonUrl) {
                             description: '2020.11.29返回中国',
                             color: '#1661ab'
 
-                        }, {
-                            from: '加拿大多伦多动物园',
-                            to: '重庆动物园',
-                            name: '二顺',
-                            year: '2020.11.29',
-                            now: 'G',
-                            description: '2020.11.29返回中国',
-                            color: '#63bbd0'
-
-                        },]
+                        }, ]
                 }, {
                     type: 'flowmap',
                     name: '至今未归',

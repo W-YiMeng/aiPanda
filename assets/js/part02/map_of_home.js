@@ -12,7 +12,8 @@ function initializeMap3(containerId, topoJsonUrl) {
             Highcharts.mapChart('part020301', {
                 chart: {
                     map: topology,
-                    margin: 1
+                    margin: 1,
+                  
                 },
 
                 title: {
@@ -91,7 +92,7 @@ function initializeMap3(containerId, topoJsonUrl) {
                 }, {
                     showInLegend: false,
                     name: '动物园',
-                    color: "#43b244",
+                    color: "#96c02f",
                     data: [
                         [
                             30.00,
