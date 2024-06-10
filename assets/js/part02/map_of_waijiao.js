@@ -230,9 +230,9 @@ function initializeMap(containerId, topoJsonUrl) {
                         color: '#000000'
                     }, {
                         id: '奥地利美泉宫动物园',
-                        lat: 16.31
+                        lat: 48.18
                         ,
-                        lon: 48.18
+                        lon: 16.31
                         ,
                         color: '#000000'
                     }, {
