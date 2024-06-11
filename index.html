@@ -173,7 +173,7 @@
                 <script type="text/javascript">
                   Highcharts.setOptions({
                     colors: [
-                      'rgba(67, 178, 68) ', 'rgba(150, 194, 78) ', 'rgba(237,86,27,0.5)', 'rgba(181, 224, 155)',
+                      '#973444','#1661ab', '#815c94', '#20a162',
                     ]
                   });
 
@@ -232,6 +232,10 @@
 
                     Highcharts.chart('part020102', {
                       chart: {
+                        credits: {
+        enabled: false//不显示LOGO
+    },
+
                         type: 'scatter',
                         zooming: {
                           type: 'xy'
@@ -329,7 +333,7 @@
                         }
                       },
                       tooltip: {
-                        pointFormat: 'Height: {point.x} m <br/> Weight: {point.y} kg',
+                        pointFormat: '位置: {point.x} <br/> 年份: {point.y} 年',
                         style: {
                           fontSize: '13px'
                         }

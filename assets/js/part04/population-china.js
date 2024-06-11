@@ -4,7 +4,7 @@ var myChart = echarts.init(document.getElementById('population-china-chart'));
 // 指定图表的配置项和数据
 var option = {
     title: {
-        text: '中国大熊猫栖息地面积分布图',
+        text: '中国大熊猫潜在栖息地面积分布图',
         subtext: '单位：公顷',
         left: 'center'
     },

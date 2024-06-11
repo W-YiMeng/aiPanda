@@ -12,8 +12,10 @@ function initializeMap(containerId, topoJsonUrl) {
 
             Highcharts.mapChart('part020101', {
                 chart: {
-                    map: topology,
-                   
+                    credits: {
+                        enabled: false//不显示LOGO
+                        },
+                    map: topology
                 },
                 style: {  
                     fontFamily: 'Arial, sans-serif', // 字体家族  
@@ -57,7 +59,7 @@ function initializeMap(containerId, topoJsonUrl) {
                     flowmap: { // 假设 flowmap 是一个可用的系列类型  
                         tooltip: {  
                             headerFormat: '{point.options.name}<br>{point.options.year}<br>',  
-                            pointFormat: '{point.options.from} \u2192 {point.options.to}',  
+                            pointFormat: '{point.options.name}<br>{point.options.year}<br>{point.options.from} \u2192 {point.options.to}',  
                             style: {  
                                 fontSize: '18px'  
                             }  
